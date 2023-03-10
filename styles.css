@@ -1,5 +1,4 @@
 html {
-    /* background: radial-gradient(rgb(147, 225, 140), rgb(218, 239, 218)); */
     background-image: url(flowers.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -7,7 +6,6 @@ html {
 }
 
 h1 {
-    justify-self: center;
     padding-bottom: 15px;
     font-style:normal;
 }
@@ -25,14 +23,14 @@ body {
 button {
     margin-top: 30px;
     font-size: 48px;
-    border: 2px inset rgb(96, 81, 62);
+    border: 3px inset rgb(96, 81, 62);
     background-color: rgb(240, 235, 237);
     padding: 10px;
 }
 
 button:hover {
     background-color: rgb(235, 226, 146);
-    border: 2px outset rgb(96, 81, 62);
+    border: 3px outset rgb(96, 81, 62);
     cursor: pointer;
 }
 
@@ -41,5 +39,6 @@ button:hover {
     padding-bottom: 30px;
     font-family: 'apple chancery';
     font-size: 30px;
+    font-style: bold;
     color: rgb(121, 39, 57);
 }
