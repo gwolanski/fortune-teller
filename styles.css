@@ -25,13 +25,18 @@ button {
     font-size: 48px;
     border: 3px inset rgb(96, 81, 62);
     background-color: rgb(240, 235, 237);
-    padding: 10px;
+    padding: 5px;
 }
 
 button:hover {
     background-color: rgb(235, 226, 146);
     border: 3px outset rgb(96, 81, 62);
     cursor: pointer;
+}
+
+p {
+    font-size: 12px;
+    line-height: 0.25;
 }
 
 #fortune {
