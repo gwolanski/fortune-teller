@@ -1,11 +1,8 @@
-//create variables for button and fortune display area
 let fortuneButton = document.querySelector('#button');
 let fortuneDisplay = document.querySelector('#fortune');
-//when button clicked, run a function
+
 fortuneButton.addEventListener('click', fortuneGenerator);
-//create function that generates fortune
-//when function is called, create a randomizer that cycles through my fortune array, randomly choose an index, and displays the text...
-//of that index on the page.
+
 function fortuneGenerator() {
     const fortuneOptions = ['I am strong.', 'I alone hold the truth of who I am.', 'I am loved and worthy.', 'I am allowed to feel good.',
         'I am exactly where I need to be in life.', 'I deserve greatness.', 'I bring value to myself and those around me.', 
