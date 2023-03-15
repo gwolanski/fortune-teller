@@ -12,6 +12,7 @@ h1 {
 
 body {
     border: 6px outset hsla(0,60%,70%, .4);
+    background-color: rgba(217, 162, 143, 0.4);
     box-shadow: 6px 4px 8px;
     text-align: center;
     font-family: palatino, helvetica, verdana, 'lucida console';
